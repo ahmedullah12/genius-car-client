@@ -4,7 +4,7 @@ import parts from '../../../assets/images/about_us/parts.jpg'
 
 const About = () => {
   return (
-    <div className="hero min-h-screen mb-10 bg-base-200">
+    <div className="hero  my-32 ">
       <div className="hero-content w-full flex-col lg:flex-row">
         <div className="relative w-1/2">
           <img
@@ -19,11 +19,13 @@ const About = () => {
           />
         </div>
         <div className="w-1/2">
-            <p className="text-2xl text-orange-500 font-bold">About Us</p>
-          <h1 className="text-5xl font-bold">We are qualified <br /> & of experience <br /> in this field</h1>
+            <p className=" text-2xl text-orange-500 font-bold">About Us</p>
+          <h1 className="my-5 text-5xl font-bold">We are qualified <br /> & of experience <br /> in this field</h1>
           <p className="py-6">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. <br />
-          the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          <br />
+          <br />
+          <p>The Majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
           </p>
           <button className="btn btn-primary">Get More Info</button>
         </div>
